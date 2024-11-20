@@ -1,0 +1,9 @@
+node_modules
+
+.env
+
+dist
+
+src/configs/logs
+
+src/configs/database/create_database.sql
