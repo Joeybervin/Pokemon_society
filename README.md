@@ -2,49 +2,66 @@
 
 **Création d'un Pokédex Numérique Ultime**
 
-Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète et sécurisée pour la Pokémon Society, permettant de manipuler et d'explorer des données sur les Pokémon. Le Pokédex Numérique Ultime sera une référence pour les chercheurs et dresseurs du monde entier.
+Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète et sécurisée pour la Pokémon Society, permettant de manipuler et d'explorer des données sur les Pokémon. Le Pokédex Numérique Ultime sera une référence incontournable pour les chercheurs et dresseurs du monde entier.
 
 ---
 
 ## 🏆 Objectifs
 
-- Découvrir et comprendre le concept d'API.
-- Implémenter des routes, contrôleurs et modèles.
-- Manipuler une base de données MySQL/MariaDB.
-- Maîtriser les opérations CRUD (Create, Read, Update, Delete).
-- Comprendre les verbes/méthodes et les codes retours HTTP.
-- Implémenter des techniques avancées de sécurité (JWT, middlewares).
+- **Apprendre** et comprendre le concept d'API REST.
+- **Implémenter** des routes, contrôleurs et modèles en TypeScript.
+- **Manipuler** une base de données MySQL/MariaDB de manière sécurisée.
+- **Maîtriser** les opérations CRUD (Create, Read, Update, Delete).
+- **Utiliser** des outils modernes pour la journalisation et la gestion des erreurs.
+- **Implémenter** des techniques avancées de sécurité (JWT, middlewares).
 
 ---
 
 ## 📚 Structure du Projet
-src/ : Contient le code source (routes, contrôleurs, modèles, utilitaires).
-dist/ : Contient le code compilé (généré automatiquement par TypeScript).
-.env : Stocke les informations sensibles pour la configuration de la base de données.
 
----
+📂 dist/
+├── ... # Code compilé généré par TypeScript
+📄 .env # Variables d'environnement (non incluses dans le dépôt)
 
-## 📢 Recommendation before getting started
+📂 src/ 
+├── routes/ # Gestion des routes
+├── controllers/ # Logique métier des routes
+├── models/ # Requêtes SQL et interactions avec la BDD
+├── utils/ # Fonctions utilitaires (ex. logger, requêtes SQL)
 
-Ypu should have installed on your computer typescript etc ... if your are not using docker.
+## ⚙️ Installation et Lancement
 
-## ⚙️ Installation
+### 1. **Pré-requis**
+- **Node.js** (version LTS recommandée)
+- **TypeScript** (si vous n'utilisez pas Docker)
+- **MySQL/MariaDB** (configuré sur votre machine ou en conteneur)
 
-1. **Créer un fichier .env**
-   ```txt
-   DB_HOST=localhost
-   DB_USER=
-   DB_PASSWORD=
-   DB_NAME=
-  
-  
+### 2. **Configurer les variables d'environnement**
+Créez un fichier `.env` à la racine du projet pour sécuriser vos informations sensibles :
+```env
+DB_HOST=localhost
+DB_USER=<votre_utilisateur>
+DB_PASSWORD=<votre_mot_de_passe>
+DB_NAME=pokemon
+```
 
-2. **Cloner le dépôt** :  
-   ```bash
-   ./install
-   npm install
-   npm run dev
+2. **Cloner le dépôt** :
+```bash
+./install
+git clone <url_du_dépôt>
+cd <nom_du_projet>
+```
 
+3. **Installer les dépendances** :
+```bash
+./install
+npm install
+```
+5. **Lancer le projet en mode développement** :
+```bash
+./install
+npm run dev
+```
 
 ---
 
@@ -55,7 +72,6 @@ Ypu should have installed on your computer typescript etc ... if your are not us
 - [Winston](https://github.com/winstonjs/winston)
 - [dotenv](https://github.com/motdotla/dotenv)
 
----
 
 ## ✅ Prochaines Étapes et Améliorations
 - Implémenter des fonctionnalités avancées (filtrage, pagination).
@@ -64,3 +80,4 @@ Ypu should have installed on your computer typescript etc ... if your are not us
 - Étendre l’authentification pour des rôles spécifiques (Admin, Utilisateur, etc.).
 
 # Attrapez-les tous ! 🎮
+
