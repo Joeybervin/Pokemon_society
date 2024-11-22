@@ -1,8 +1,19 @@
+
+
+
+<p align="center">
+  <img src="./public/pokemon-logo.png" alt="Logo du projet" width="400">
+</p>
+
+
+
 # Pokémon Society API
+
 
 **Création d'un Pokédex Numérique Ultime**
 
 Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète et sécurisée pour la Pokémon Society, permettant de manipuler et d'explorer des données sur les Pokémon. Le Pokédex Numérique Ultime sera une référence incontournable pour les chercheurs et dresseurs du monde entier.
+
 
 ---
 
@@ -34,8 +45,8 @@ Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète
   ├── types/         # Déclarations des interfaces et types personnalisés pour TypeScript.  
   ├── utils/         # Fonctions utilitaires réutilisables (ex. gestion d'erreurs, loggers, etc.).  
 
-  📄 .env # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité).
-  ⚙️ install.sh # Script pour automatiser l'installation et la configuration du projet.
+📄 .env # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité).  
+⚙️ install.sh # Script pour automatiser l'installation et la configuration du projet.  
 
 ## ⚙️ Installation et Lancement
 
