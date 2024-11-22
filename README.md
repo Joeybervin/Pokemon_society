@@ -19,20 +19,20 @@ Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète
 
 ## 📚 Structure du Projet
 
-📂 dist/
-├── ... # Code compilé généré automatiquement par TypeScript.
+📂 dist/  
+  ├── ... # Code compilé généré automatiquement par TypeScript.
 
-📂 public/
-├── ... # Fichiers publics, tels que des assets (images, styles CSS ou JS statiques).
+📂 public/  
+  ├── ... # Fichiers publics, tels que des assets (images, styles CSS ou JS statiques).
 
-📂 src/
-├── routes/ # Définition des routes API et mapping vers les contrôleurs correspondants.
-├── controllers/ # Logique métier associée aux routes (traitement des requêtes).
-├── models/ # Structures de données représentant les entités (Pokémon, Item, etc.).
-├── repositories/ # Gestion des interactions directes avec la base de données.
-├── configs/ # Configuration des paramètres globaux (ex. connexion DB, constants).
-├── types/ # Déclarations des interfaces et types personnalisés pour TypeScript.
-├── utils/ # Fonctions utilitaires réutilisables (ex. gestion d'erreurs, loggers, etc.).
+📂 src/  
+  ├── routes/        # Définition des routes API et mapping vers les contrôleurs correspondants.  
+  ├── controllers/   # Logique métier associée aux routes (traitement des requêtes).  
+  ├── models/        # Structures de données représentant les entités (Pokémon, Item, etc.).  
+  ├── repositories/  # Gestion des interactions directes avec la base de données.  
+  ├── configs/       # Configuration des paramètres globaux (ex. connexion DB, constants).  
+  ├── types/         # Déclarations des interfaces et types personnalisés pour TypeScript.  
+  ├── utils/         # Fonctions utilitaires réutilisables (ex. gestion d'erreurs, loggers, etc.).  
 
 📄 .env # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité).
 ⚙️ install.sh # Script pour automatiser l'installation et la configuration du projet.
