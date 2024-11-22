@@ -20,19 +20,19 @@ Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète
 ## 📚 Structure du Projet
 
 📂 dist/
-  ├── ... # Code compilé généré automatiquement par TypeScript.
+├── ... # Code compilé généré automatiquement par TypeScript.
 
 📂 public/
-  ├── ... # Fichiers publics, tels que des assets (images, styles CSS ou JS statiques).
+├── ... # Fichiers publics, tels que des assets (images, styles CSS ou JS statiques).
 
 📂 src/
-  ├── routes/ # Définition des routes API et mapping vers les contrôleurs correspondants.
-  ├── controllers/ # Logique métier associée aux routes (traitement des requêtes).
-  ├── models/ # Structures de données représentant les entités (Pokémon, Item, etc.).
-  ├── repositories/ # Gestion des interactions directes avec la base de données.
-  ├── configs/ # Configuration des paramètres globaux (ex. connexion DB, constants).
-  ├── types/ # Déclarations des interfaces et types personnalisés pour TypeScript.
-  ├── utils/ # Fonctions utilitaires réutilisables (ex. gestion d'erreurs, loggers, etc.).
+├── routes/ # Définition des routes API et mapping vers les contrôleurs correspondants.
+├── controllers/ # Logique métier associée aux routes (traitement des requêtes).
+├── models/ # Structures de données représentant les entités (Pokémon, Item, etc.).
+├── repositories/ # Gestion des interactions directes avec la base de données.
+├── configs/ # Configuration des paramètres globaux (ex. connexion DB, constants).
+├── types/ # Déclarations des interfaces et types personnalisés pour TypeScript.
+├── utils/ # Fonctions utilitaires réutilisables (ex. gestion d'erreurs, loggers, etc.).
 
 📄 .env # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité).
 ⚙️ install.sh # Script pour automatiser l'installation et la configuration du projet.
@@ -103,10 +103,20 @@ Installez toutes les dépendances nécessaires au fonctionnement du projet :
 
 
 ## ✅ Prochaines Étapes et Améliorations
-- Implémenter des fonctionnalités avancées (filtrage, pagination).
-- Ajouter des tests unitaires avec Jest.
-- Préparer la mise en production avec Docker.
-- Étendre l’authentification pour des rôles spécifiques (Admin, Utilisateur, etc.).
+  ### Sécurisation 🔐
+    - Ajouter l'authentification avec JWT pour protéger les routes sensibles.
+    - Mettre en place des middlewares de validation et des logs détaillés pour surveiller l'activité et détecter les accès suspects.
+  ### Interface Visuelle 🖥️
+    - Créer un mini Pokédex en ligne avec EJS ou Pug, comprenant :
+    - Une galerie interactive affichant les Pokémon sous forme de cartes.
+    - Une page de détails pour chaque Pokémon (types, statistiques, mouvements).
+    - Des fonctionnalités de pagination et de filtrage.
+  ### Améliorations UX ✨
+    - Ajouter du style avec CSS pour un design immersif.
+    - Rendre la navigation fluide avec JavaScript.
+  ### Autres ➕
+    - Documenter l'API avec Swagger ou Postman.
+    
 
 # Attrapez-les tous ! 🎮
 
