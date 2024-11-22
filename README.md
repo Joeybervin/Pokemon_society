@@ -31,7 +31,7 @@ Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète
 ## 📚 Structure du Projet
 
 ```plaintext
-  ├── 📂 dist                     # Code compilé généré automatiquement par TypeScript
+    ├── 📂 dist                     # Code compilé généré automatiquement par TypeScript
   │   └── ...                     # Fichiers JS compilés
   ├── 📂 public                   # Fichiers publics
   │   └── ...                     # Assets tels que images, styles CSS ou JS statiques
@@ -43,10 +43,9 @@ Bienvenue, jeune chercheur ! Ce projet consiste à développer une API complète
   │   ├── 📂 configs              # Configuration des paramètres globaux (connexion DB, constants, etc.)
   │   ├── 📂 types                # Déclarations des interfaces et types personnalisés pour TypeScript
   │   └── 📂 utils                # Fonctions utilitaires réutilisables (gestion d'erreurs, loggers, etc.)
+  ├── 📄 .env                     # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité)
+  ├── ⚙️ install.sh               # Script pour automatiser l'installation et la configuration du projet
 ``` 
-
-📄 .env # Fichier pour les variables d'environnement (non inclus dans le dépôt pour des raisons de sécurité).  
-⚙️ install.sh # Script pour automatiser l'installation et la configuration du projet.  
 
 ## ⚙️ Installation et Lancement
 
